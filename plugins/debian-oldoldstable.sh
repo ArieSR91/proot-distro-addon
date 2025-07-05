@@ -4,9 +4,9 @@
 DISTRO_NAME="Debian (buster)"
 DISTRO_COMMENT="Old old stable release."
 
-TARBALL_URL['aarch64']="https://github.com/ArieSR91/proot-distro-addon/blob/main/rootfs/debian-buster-arm64.tar.xz"
+TARBALL_URL['aarch64']="https://github.com/ArieSR91/proot-distro-addon/raw/refs/heads/main/rootfs/debian-buster-arm64.tar.xz"
 TARBALL_SHA256['aarch64']="95c3eab5a96de83985c211fd906031e479907b2506da7a3f53f396a8606b5ba7"
-TARBALL_URL['arm']="https://github.com/ArieSR91/proot-distro-addon/blob/main/rootfs/debian-buster-arm.tar.xz"
+TARBALL_URL['arm']="https://github.com/ArieSR91/proot-distro-addon/raw/refs/heads/main/rootfs/debian-buster-arm.tar.xz"
 TARBALL_SHA256['arm']="ed48c94928bd8e8b7b4647de69e83433a44d5568f85c80798c84f1562b3f9d16"
 
 distro_setup() {
